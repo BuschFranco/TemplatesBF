@@ -8,10 +8,27 @@ Este proyecto requiere la creación de un Footer y la mejora del sistema de nave
 2. **Mejora del Nav**: Configurar los botones de navegación para que redirijan a páginas específicas sobre tipos de comida. **Fecha de entrega: 21/02/2025**
 3. **Maximización de Imágenes (Opcional)**: Implementar una funcionalidad que permita maximizar las imágenes al hacer clic en ellas. **Fecha de entrega: Opcional**
 
+4. **Destacar precios**: Actualizar los precios para que sean más llamativos **Fecha de entrega: 21/02/2025**
+5. **Probar agregar un banner superior en páginas secundarias (no el index, no la página principal)**: Agregar un banner a modo de prueba para testear como quedaría **Fecha de entrega: 22/02/2025**
+6. **Agregar un formulario para que los clientes puedan dejar reseñas y puntear del 1-5 la calidad del servicio o de los alimentos** **Fecha de entrega: 21/02/2025**
+
 ## Instrucciones
-- **Footer**: Asegúrate de que el Footer sea consistente con el diseño general del sitio.
-- **Nav**: Cada botón en el nav debe redirigir a una página específica que detalle un tipo de comida (por ejemplo, Carnes, Verduras, Bebidas, etc.).
-- **Maximización de Imágenes**: Al hacer clic en una imagen, esta debe expandirse para mostrar una versión más grande.
+4. **Destacar precios**: Actualizar los precios para que sean más llamativos.
+    - **Instrucciones**:
+      1. Identificar los elementos de precios en el código.
+      2. Aplicar estilos CSS para resaltar los precios (por ejemplo, cambiar el color, aumentar el tamaño de la fuente, agregar un fondo o hacerlas en negrita).
+      3. Verificar que los cambios sean consistentes en todas las páginas.
+
+5. **Probar agregar un banner superior en páginas secundarias (no el index, no la página principal)**: Agregar un banner a modo de prueba para testear como quedaría.
+    - **Instrucciones**:
+      1. Crear un diseño de banner siguiendo las especificaciones del proyecto.
+      2. Insertar el banner en las páginas secundarias.
+      3. Asegurarse de que el banner no aparezca en la página principal (index).
+      4. Realizar pruebas de visualización en diferentes navegadores y dispositivos.
+
+6. **Agregar un formulario para que los clientes puedan dejar reseñas y puntear del 1-5 la calidad del servicio o de los alimentos**.
+    - **Instrucciones**:
+      1. Crear un formulario con campos para el nombre del cliente, reseña y puntuación (1-5).
 
 ## Contacto
 Para más información, contacta al equipo de desarrollo.
