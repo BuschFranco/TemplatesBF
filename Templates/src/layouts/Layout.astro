@@ -15,6 +15,41 @@
 	</body>
 </html>
 
+<script>
+    document.querySelectorAll('li').forEach(item => {
+        item.addEventListener('click', event => {
+            const img = item.querySelector('img');
+            if (img) {
+                const overlay = document.createElement('div');
+                overlay.style.position = 'fixed';
+                overlay.style.top = '0';
+                overlay.style.left = '0';
+                overlay.style.width = '100%';
+                overlay.style.height = '100%';
+                overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+                overlay.style.display = 'flex';
+                overlay.style.alignItems = 'center';
+                overlay.style.justifyContent = 'center';
+                overlay.style.zIndex = '1000';
+                overlay.style.backdropFilter = 'blur(10px)';
+                
+                const enlargedImg = document.createElement('img');
+                enlargedImg.src = img.src;
+                enlargedImg.style.maxWidth = '90%';
+                enlargedImg.style.maxHeight = '90%';
+                enlargedImg.style.borderRadius = '1rem';
+                
+                overlay.appendChild(enlargedImg);
+                document.body.appendChild(overlay);
+                
+                overlay.addEventListener('click', () => {
+                    document.body.removeChild(overlay);
+                });
+            }
+        });
+    });
+</script>
+
 <style>
 	html{
 		background-color: black;
@@ -32,5 +67,12 @@
 		background-image: url("/images/background.png");
 		background-size: cover;
 		background-repeat: no-repeat;
+	
+	}
+	section li{
+		cursor: pointer;
 	}
 </style>
+
+
+
