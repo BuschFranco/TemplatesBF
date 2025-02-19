@@ -10,7 +10,7 @@ Este proyecto requiere la creación de un Footer y la mejora del sistema de nave
 
 4. **Destacar precios**: Actualizar los precios para que sean más llamativos **Fecha de entrega: 21/02/2025**
 5. **Probar agregar un banner superior en páginas secundarias (no el index, no la página principal)**: Agregar un banner a modo de prueba para testear como quedaría **Fecha de entrega: 22/02/2025**
-6. **Agregar un formulario para que los clientes puedan dejar reseñas y puntear del 1-5 la calidad del servicio o de los alimentos** **Fecha de entrega: 21/02/2025**
+6. **Agregar un formulario para que los clientes puedan dejar reseñas y puntear del 1-5 la calidad del servicio o de los alimentos** **Fecha de entrega: 23/02/2025**
 
 ## Instrucciones
 4. **Destacar precios**: Actualizar los precios para que sean más llamativos.
