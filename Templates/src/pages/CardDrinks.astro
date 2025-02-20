@@ -17,32 +17,33 @@ import Footer from '../components/Footer.astro'
                     <h4>Cerveza Artesanal 500ml</h4>
                     <img src="https://topbeer.mx/wp-content/uploads/2022/08/tipos-de-cerveza-en-beer-flight-1024x683.jpg" alt="Cerveza Artesanal">
                     <p>Cerveza tirada IPA, APA, Roja, Negra, Rubia</p>
-                    <p>Precio: $6.000</p>
+                    <p>Precio: <span class="precio">$6.000</span></p>
+
                 </li>
                 <li>
                     <h4>Porrón Cervezas Industriales</h4>
                     <img src="https://statics.eleconomista.com.ar/2020/05/614e35558a6d8.jpeg" alt="Porron de cerveza">
                     <p>Heineken, Stella Artois, Patagonia, Blue moon</p>
-                    <p>Precio: $8.000</p>
+                    <p>Precio: <span class="precio">$8.000</span></p>
                 </li>
             
                 <li>
                     <h4>Tragos de autor</h4>
                     <img src="https://hips.hearstapps.com/es.h-cdn.co/hares/images/cultura/viajes-planes/las-mejores-barras-de-cocteleria-de-espana/2465049-4-esl-ES/las-mejores-barras-de-cocteleria-de-espana.jpg?crop=1xw:0.7490636704119851xh;center,top&resize=1200:*" alt="Tragos">
                     <p>Aurora boreal, fuego celestial, Espíritu del bosque </p>
-                    <p>Precio: 15.000</p>
+                    <p>precio: <scan class="precio"> $8.000</scan></p>
                 </li>
                 <li>
                     <h4>Tragos de litro</h4>
                     <img src="https://img.freepik.com/foto-gratis/primer-plano-gin-tonic-rose-frambuesas-lima_181624-33568.jpg" alt="Trago de litro">
                     <p>Fernet, Gin, Vodka, Cuba libre</p>
-                    <p>Precio: $12.000</p>
+                    <p>Precio: <scan class="precio"> $12.000</scan></p>
                 </li>
                 <li>
                     <h4>Vino en copa</h4>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQpU3jeLqNbV6FmoZUguXdQRs7aayVksreTA&s" alt="Trago de litro">
                     <p>Blanco, cabernet, cabernet suavignon, tinto</p>
-                    <p>Precio: $8.000</p>
+                    <p>Precio: <span class="precio">$8.000</span></p>
                 </li>
             </ul>
         </section>
@@ -53,31 +54,31 @@ import Footer from '../components/Footer.astro'
                     <h4>Agua c/s gas</h4>
                     <img src="https://jumboargentina.vtexassets.com/arquivos/ids/795828-800-600?v=638313501973800000&width=800&height=600&aspect=true" alt="Agua">
                     <p>Agua con, o sin gas. Villavicencio</p>
-                    <p>Precio: $3.000</p>
+                    <p>Precio: <span class="precio">$3.000</span></p>
                 </li>
                 <li>
                     <h4>Limonada</h4>
                     <img src="https://7diasdesabor.com/wp-content/uploads/2024/05/WEB-BEBIDA-4.png" alt="Limonadas">
                     <p>Limonada de frutos rojos, con o sin menta y jengibre</p>
-                    <p>Precio: $6.000</p>
+                    <p>Precio: <span class="precio">$6.000</span></p>
                 </li>
                 <li>
                     <h4>Gaseoas 300ml</h4>
                     <img src="https://diariondi.com/wp-content/uploads/2023/11/gasesoas.jpg" alt="Gaseosas linea coca cola">
                     <p>Coca cola, Fanta, Sprite</p>
-                    <p>Precio: $4.000</p>
+                    <p>Precio: <span class="precio">$4.000</span></p>
                 </li>
                 <li>
                     <h4>Café</h4>
                     <img src="https://cafefm.com.ar/sitio/wp-content/uploads/2019/08/cafe.png" alt="café">
                     <p>cortado, expresso, lágrima</p>
-                    <p>Precio: $5.000</p>
+                    <p>Precio: <span class="precio">$5.000</span></p>
                 </li>
                 <li>
                     <h4>Té</h4>
                     <img src="https://http2.mlstatic.com/D_NQ_NP_871173-MLA81589126086_012025-O.webp" alt="Té">
                     <p>Té en hebras</p>
-                    <p>Precio: $5.000</p>
+                    <p>Precio: <span class="precio">$5.000</span></p>
                 </li>
             </ul>
         </section>
@@ -124,5 +125,18 @@ import Footer from '../components/Footer.astro'
     #bebidas{
         display: flex;
         flex-wrap: wrap;
+    
+        .precio {
+                font-size: 20px; /* Tamaño de fuente grande */
+                font-weight: lighter 10px; /* Negrita */
+                color: #ff4400c9; /* Naranja llamativo */
+                background-color: #3d3bcf85; /* Fondo amarillo */
+                padding: 2px 5px; /* Espaciado interno */
+                border-radius: 10px; /* Bordes redondeados */
+                display: inline-block; /* Para que se vea bien */
+}
+
+    
     }
+    
 </style>
