@@ -1,7 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
-import Cartilla from "../components/Cartilla.astro";
 import Nav from "../components/Nav.astro"
 import Footer from "../components/Footer.astro"
 ---
@@ -9,6 +8,65 @@ import Footer from "../components/Footer.astro"
 <Layout titlePage="Inicio ZOAN">
 	 <Header/>
 	 <Nav/>
-	 <Cartilla/>
+	 <div class="servicio"> 
+		<h1>Por qué somos los mejores en servicio</h1>
+	 	<p>En Zoan nos preocupamos por brindar la mejor atención y calidad en nuestros productos.
+		<p>Contamos con un equipo de profesionales que se esfuerzan por brindar la mejor experiencia a nuestros clientes.</p>
+	 	<p>Los mozos tienen años de experiencia en el rubro y pueden aconsejarte el acompañamiento de la cena.</p>
+	</div>
+	
+	<div class="gastronomia">
+		<h2>En ZOAN la estrella de la cosina es Hassan, famoso por sus platos culinarios ganadores de 5 estrellas michelin</h2>
+		<p>El chef Hassan es un experto en la cocina internacional, con platos de todas las regiones del mundo.</p>
+		<p>En nuestro menú encontrarás platos de la cocina francesa, italiana, española, japonesa, china, mexicana, peruana, argentina, y mucho más.</p>
+    </div>
+
+	<div class="aboutus">
+		<h2>Conoce más sobre nosotros</h2>
+		<p>En Zoan nos preocupamos por brindar la mejor atención y calidad en nuestros productos.</p>
+		<p>Realizamos un chequeo diario de todos los alimentos frescos que les ofrecemos.</p>
+		<p>Queremos que la experiencia no sea solo un exquisito plato de comida</p>
+		<p>ofrecemos una experiencia única e irrepetible!</p>	
+	</div>
 	 <Footer/>
 </Layout>
+
+
+<style> 
+	.servicio{
+		color: white;
+		text-align: center;
+		margin: 2rem;
+		width: 30rem;
+		font-size: small;
+		background-color: rgba(122, 43, 226, 0.336);
+		border-radius: 0.7rem;
+		padding: 0.7rem;
+
+	}
+	.gastronomia{
+		color: white;
+		text-align: center;
+		margin: 2rem;
+		width: 30rem;
+		font-size: small;
+		background-color: rgba(122, 43, 226, 0.336);
+		border-radius: 0.7rem;
+		padding: 0.7rem;
+	}
+	
+	.aboutus{
+		color: white;
+		text-align: center;
+		margin: 2rem;
+		width: 30rem;
+		font-size: small;
+		background-color: rgba(122, 43, 226, 0.336);
+		border-radius: 0.7rem;
+		padding: 0.7rem;
+	}
+</style>
+
+
+
+
