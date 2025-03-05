@@ -12,6 +12,10 @@ Este proyecto requiere la creación de un Footer y la mejora del sistema de nave
 5. **Probar agregar un banner superior en páginas secundarias (no el index, no la página principal)**: Agregar un banner a modo de prueba para testear como quedaría **Fecha de entrega: 04/03/2025**
 6. **Agregar un formulario para que los clientes puedan dejar reseñas y puntear del 1-5 la calidad del servicio o de los alimentos** **Fecha de entrega: 05/03/2025**
 
+7. **Practicar constantes sobre la descripciones de los banners**: Revisar y practicar el uso de constantes en las descripciones de los banners. **Fecha de entrega: 05/04/2025**
+8. **Agregar banner a sección de postres**: Insertar un banner específico en la sección de postres. **Fecha de entrega: 05/04/2025**
+9. **Actualizar el inicio de la cartilla**: Realizar actualizaciones en la página de inicio de la cartilla. **Fecha de entrega: 06/04/2025**
+
 ## Instrucciones
 4. **Destacar precios**: Actualizar los precios para que sean más llamativos.
     - **Instrucciones**:
