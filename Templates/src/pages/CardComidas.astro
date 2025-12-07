@@ -48,8 +48,6 @@ import Footer from '../components/Footer.astro'
                     <p>Precio: <span class="precio">$19.999</span></p>
                 </li>
             </ul>
-        </section>
-        <section class="carnes">
             
             <ul>
                 <li>
@@ -89,6 +87,9 @@ import Footer from '../components/Footer.astro'
 
 
 <style>
+  
+        
+    
     section{
         display: inline-block;
         width: 18rem;
@@ -122,10 +123,7 @@ import Footer from '../components/Footer.astro'
         border-radius: .7rem;
     }
 
-    #bebidas{
-        display: flex;
-        flex-wrap: wrap;
-    }
+    
     .precio {
         
                 font-size: 20px; /* Tamaño de fuente grande */
@@ -135,5 +133,10 @@ import Footer from '../components/Footer.astro'
                 padding: 2px 5px; /* Espaciado interno */
                 border-radius: 10px; /* Bordes redondeados */
                 display: inline-block; /* Para que se vea bien */
+    }
+
+    #comestibles {
+        justify-content: center;
+        display: flex;
     }
 </style>

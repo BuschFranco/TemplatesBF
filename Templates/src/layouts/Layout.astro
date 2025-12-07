@@ -85,7 +85,6 @@ const {titlePage} = Astro.props;
             }
         });
     });
-    // Aparición progresiva con blur al hacer scroll
     document.addEventListener('DOMContentLoaded', () => {
         const items = document.querySelectorAll('section li');
         items.forEach(el => {
@@ -134,10 +133,10 @@ const {titlePage} = Astro.props;
         cursor: pointer;
     }
 
-    /* Botón flotante arriba derecha */
+    
     #floating-cart-button{
         position: fixed;
-        top: 1rem;
+        top: 4rem;
         right: 1rem;
         z-index: 1100;
         background: #4E342E;
@@ -159,7 +158,6 @@ const {titlePage} = Astro.props;
         font-size: 1rem;
     }
 
-    /* Drawer del carrito */
     #cart-drawer{
         position: fixed;
         top: 0;
@@ -221,7 +219,6 @@ const {titlePage} = Astro.props;
         font-weight: bold;
         cursor: pointer;
     }
-    /* Efecto de aparición con difuminado suave */
     :global(.reveal){
         opacity: calc(var(--ratio, 0));
         transform: translateY(calc(12px * (1 - var(--ratio, 0))));
