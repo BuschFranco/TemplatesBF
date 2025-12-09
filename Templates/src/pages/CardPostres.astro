@@ -9,7 +9,7 @@ import Banner from '../components/Banner.astro'
 
 <Layout titlePage="POSTRES">
     <Header/>
-    <Banner title="Los postres hechos en el día más ricos!" image="images/Bannerpostres.webp"/>
+    <Banner title="Los postres hechos en el día más ricos!" image="/images/Bannerpostres.webp"/>
     <Nav/> 
 
         
@@ -60,15 +60,20 @@ import Banner from '../components/Banner.astro'
 
 <style>
     section{
-        display: inline-block;
+        display: block;
         width: 100%;
-        min-width: 180px;
+        min-width: 0;
         color: white;
-    }section ul{
+    }
+    section ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
         padding: 0;
-        margin: 0 .5rem;
+        margin: 0;
     }
     section li{
+        flex: 1 1 260px;
         list-style: none;
         box-sizing: border-box;
         margin: 1rem 0;
@@ -91,8 +96,11 @@ import Banner from '../components/Banner.astro'
     }
 
     #bebidas{
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
+    }
+
+    @media (max-width: 640px){
+        section li{ flex: 1 1 100%; }
     }
  .precio {
         
