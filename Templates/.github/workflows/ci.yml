@@ -1,10 +1,14 @@
-name: CI (Astro with npm)
+name: CI (Astro via npm in Templates)
 
 on:
   push:
     branches: ["main", "master"]
   pull_request:
     branches: ["main", "master"]
+
+defaults:
+  run:
+    working-directory: ./Templates
 
 jobs:
   build:
@@ -27,5 +31,7 @@ jobs:
 
       - name: Preview build output
         run: |
+          pwd
+          ls -la || true
           ls -la dist || true
 
